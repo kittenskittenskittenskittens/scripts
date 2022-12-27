@@ -2,7 +2,7 @@
 
 repeat wait(1 / 60) until game:IsLoaded()
 if not isfile("DWPrefix.lua") then
-        writefile("DWPrefix.lua", ".")
+        writefile("DWPrefix.lua", ";")
 end
 if game.PlaceId == 417267366 then
         coroutine.wrap(function()
